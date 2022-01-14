@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css"/>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Login Page</title>
+</head>
+<body>
+  
+    <div class="container">
+        
+        <div class="navbar">
+            <div class="logo">
+                
+                <a href="BFCESHOP.html"><img src="images/main-logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="BFCESHOP.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="login.html">Account</a></li>
+                </ul>
+                
+            </nav>
+           <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        
+        </div>
+        
+
+        
+
+    </div>
+
+    <!---------------------account page-->
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/official-web-home-page.jpg" width="100%" height="100%">
+                </div>
+                <div class="col-2">
+                   <div class="form-container">
+                       <div class="form-btn">
+                           <span onclick="Login()">Login</span>
+                           <span onclick="Register()">Register</span>
+                           <hr id="Indicator">
+                       </div>
+                       <form  id="LoginForm">
+                           <input type="text" placeholder="UserName">
+                           <input type="password" placeholder="Password">
+                           <button type="submit" class="btn">Login</button><br>
+                           <a href="">Forgot Password</a>
+
+                       </form>
+                       <form id="RegForm">
+                        <input type="text" placeholder="UserName">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <button type="submit" class="btn">Register</button>
+                        
+
+                    </form>
+
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+
+
+<!---------------footer-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="foot-col-1">
+                <h3>Download Our App</h3>
+                <p> Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img  src="images/app-store.png" alt="">
+                    <img src="images/play-store.png" alt="">
+                </div>
+            </div>
+            <div class="foot-col-2">
+               <img src="images/bengalurufc logo.png" alt="">
+            </div>
+            <div class="foot-col-3">
+                <h3>Follows Us </h3>
+                <ul>
+                    <li><a href="https://twitter.com/bengalurufc"><img src="images/twitter.png" ></a></li>
+                    <li><a href="https://www.youtube.com/hashtag/bengalurufc"><img src="images/youtube.png" alt=""></a></li>
+                    <li><a href=""><img src="images/facebook logo.png" alt=""></a></li>
+                    <li><a href=""><img src="images/intagram.jfif" alt=""></a></li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright2020-Bengalurufc</p>
+    </div>
+</div>
+    
+<script src="ecom.js"></script>
+</body>
+
+</html>
